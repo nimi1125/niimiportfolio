@@ -17,10 +17,10 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
-    optimizeDeps: {
-        include: ['wowjs']
-    },
+    base: '/build/', 
     build: {
+        outDir: 'public/build', 
+        emptyOutDir: true,
         rollupOptions: {
             output: {
                 globals: {
