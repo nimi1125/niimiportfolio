@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Serif+JP:wght@200..900&display=swap');
+
+/* 共通 */
+
+body {
+    font-family: "Noto Serif JP", serif;
+    font-style: normal;
+    color: #001331;
+    background: #B9BEC5;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #001331;
+}
+
+.titH1,.titH2{
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+}
+
+.titH1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background: #fff;
+    padding: 5px 10px;
+}
+
+.sec {
+    padding: 80px 2% 10px;
+}
+
+.sec:last-child {
+    padding: 80px 2%;
+}
+
+
+.titBox{
+    text-align: center;
+    margin: 0 0 4rem;
+}
+
+.titH2 {
+    font-size: 2.3rem;
+    display: block;
+}
+
+.titBox .ja{
+    position: relative;
+    display: inline-block;
+}
+
+.titBox .ja::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background: #001331;
+    top: 12px;
+    left: -25px;
+}
+
+.titBox .ja::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background: #001331;
+    top: 12px;
+    right: -25px;
+}
+
+
+.btn01 {
+    font-family: "DM Serif Display", serif;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #666;
+    width: 120px;
+    max-width: 90%;
+    color: #001331;
+    display: block;
+}
+.btn01::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 1px;
+    background: #666;
+    rotate: 40deg;
+    position: absolute;
+    right: -3px;
+    bottom: 4px;
+}
+
+
+/* 共通ここまで */
+
+
+/* header */
+
+.header {
+    font-family: "DM Serif Display", serif;
+    position: relative;
+}
+
+.hedNav {
+    position: absolute;
+    right: 20px;
+    width: 350px;
+    top: 20px;
+}
+
+.hedNav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.hedNav > ul > li {
+    display: inline-block;
+}
+
+.hedNav > ul > li > a {
+    color: #fff;
+}
+
+/* headerここまで */
+
+
+/* footer */
+
+.footer{
+    font-family: "DM Serif Display", serif;
+    background: #001331;
+    width: 100%;
+    padding: 5% 2% 0;
+}
+
+.fodNav > ul{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.fodNavBox{
+    margin-bottom: 5%;
+}
+
+.fodNav > ul > li  {
+    margin-right: 20px;
+}
+
+.fodNav > ul > li:last-child{
+    margin-right: 0;
+}
+
+.fodNav > ul > li > a {
+    color: #fff;
+}
+
+.fodTit{
+    color: #fff;
+}
+
+.copy{
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* footerここまで */
+
+/* top */
+
+main.preload .wow.fadeIn {
+	opacity: 0 !important;
+}
+
+/* topここまで */
+
+/* カバー */
+
+.topCv{
+    height: 100vh;
+}
+
+.topCvImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* カバーここまで */
+
+
+/* about */
+
+.aboutImgBox {
+    width: 100%;
+    max-width: 150px;
+    margin: auto;
+}
+
+.aboutTit {
+    font-size: 1.5rem;
+}
+
+.aboutTit .ja {
+    font-size: 1rem;
+}
+
+.aboutTit .ja {
+    font-size: 1rem;
+    margin: 0 0 0 10px;
+}
+
+/* aboutここまで */
+
+
+/* work */
+
+.workArticle{
+    padding: 5rem 0 5rem;
+    border-bottom: solid 1px #001331;
+}
+
+.workDt {
+    font-size: 1.5rem;
+}
+
+/* workここまで */
+
+
+/* contact */
+/* contactここまで */
+
+
+@media (min-width : 768px){
+
+    /* 共通 */
+
+    .sec {
+        padding: 100px 50px 20px;
+    }
+    
+    .sec:last-child {
+        padding: 100px 50px;
+    }
+
+    /* 共通ここまで */
+
+
+    /* about */
+    
+    .aboutImgBox {
+        max-width: 200px;
+    }
+
+    /* aboutここまで */
+}
