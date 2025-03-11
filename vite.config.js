@@ -21,9 +21,9 @@ export default defineConfig({
             'jquery': path.resolve(__dirname, 'node_modules/jquery/dist/jquery.js')
         }
     },
+    base: '/build/',
     build: {
         outDir: 'public/build',
         emptyOutDir: true,
     },
-    base: process.env.HEROKU === 'true' ? '' : '/build/',
 });
