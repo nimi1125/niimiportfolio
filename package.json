@@ -5,7 +5,7 @@
         "build": "vite build",
         "dev": "vite",
         "start": "node server.cjs",
-        "heroku-postbuild": "npm run build"
+        "heroku-postbuild": "npm install --include=dev && npm run build"
     },
     "dependencies": {
         "express": "^4.21.2",
@@ -13,7 +13,9 @@
         "vite": "^6.2.0"
     },
     "devDependencies": {
-        "@tailwindcss/forms": "^0.5.2",
+        "@tailwindcss/forms": "^0.5.7",
+        "@tailwindcss/vite": "^4.0.12",
+        "@vitejs/plugin-vue": "^5.2.1",
         "alpinejs": "^3.4.2",
         "autoprefixer": "^10.4.2",
         "axios": "^1.7.4",
@@ -24,6 +26,6 @@
     },
     "engines": {
         "node": "20.x",
-        "npm": "9.x"
+        "npm": "10.x"
     }
 }
