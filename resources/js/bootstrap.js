@@ -1,7 +1,7 @@
 import axios from 'axios';
-window.axios = axios;
+import jQuery from 'jquery';
 
+window.axios = axios;
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
-import $ from 'jquery';
-window.jQuery = window.$ = $
+window.$ = window.jQuery = jQuery;
