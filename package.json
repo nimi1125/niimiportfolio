@@ -4,7 +4,7 @@
         "build": "vite build",
         "dev": "vite",
         "start": "node server.cjs",
-        "heroku-postbuild": "NODE_ENV=development npm install && npm run build"
+        "heroku-postbuild": "npm install --only=dev && npm install && npm run build"
     },
     "dependencies": {
         "express": "^4.21.2",
