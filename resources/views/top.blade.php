@@ -74,7 +74,7 @@
                                     </a>
                                 </dd>
                             </dl>
-                            <a href="https://nailideafactory-app-119276a88e28.herokuapp.com/" class="btn01">
+                            <a href="https://nailideafactory-app-119276a88e28.herokuapp.com/" class="btn01" target="_blank">
                                 View More
                             </a>
                         </div>
