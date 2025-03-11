@@ -1,11 +1,10 @@
 {
     "private": true,
-    "type": "module",
     "scripts": {
         "build": "vite build",
         "dev": "vite",
         "start": "node server.cjs",
-        "heroku-postbuild": "npm install --include=dev && npm run build"
+        "heroku-postbuild": "NODE_ENV=development npm install && npm run build"
     },
     "dependencies": {
         "express": "^4.21.2",
