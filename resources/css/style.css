@@ -23,6 +23,10 @@ a{
     color: #001331;
 }
 
+a:hover{
+    opacity: 0.7;
+}
+
 .titH1,.titH2{
     font-family: "DM Serif Display", serif;
     font-style: normal;
@@ -91,6 +95,7 @@ a{
     color: #001331;
     display: block;
 }
+
 .btn01::before {
     content: "";
     display: block;
@@ -101,10 +106,6 @@ a{
     position: absolute;
     right: -3px;
     bottom: 4px;
-}
-
-.btn01:hover{
-    opacity: 0.7;
 }
 
 /* 共通ここまで */
