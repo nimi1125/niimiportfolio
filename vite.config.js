@@ -25,5 +25,5 @@ export default defineConfig({
         outDir: 'public/build',
         emptyOutDir: true,
     },
-    base: process.env.APP_ENV === 'production' ? '/' : '/build/',
+    base: process.env.HEROKU === 'true' ? '' : '/build/',
 });
