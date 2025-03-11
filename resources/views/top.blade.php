@@ -62,6 +62,16 @@
                                 </dt>
                                 <dd class="workDd mb-4">
                                     ネイルデザインのメモ帳として使えるWebアプリを作成しました。
+                                    通っていたスクールの課題の一環で作成しました。
+                                </dd>
+                                <dd class="workDd mb-4">
+                                    制作期間
+                                    デザイン、DB設計からアプリ作成完成まで:約1ヶ月
+                                </dd>
+                                <dd class="workDd mb-4">
+                                    <a href="https://github.com/nimi1125/NailIdeaFactory" target="_blank">
+                                        github:https://github.com/nimi1125/NailIdeaFactory
+                                    </a>
                                 </dd>
                             </dl>
                             <a href="./works/detail/1" class="btn01">
@@ -82,9 +92,15 @@
                                 </dt>
                                 <dd class="workDd mb-4">
                                     自身のポートフォリオサイトを制作しました。
+                                    シンプルで分かりやすいように、また制作事例を増やしていきやすいように今後調整予定です。
+                                </dd>
+                                <dd class="workDd mb-4">
+                                    制作期間<br>
+                                    デザイン:2日
+                                    コーディング:1週間ほど
                                 </dd>
                             </dl>
-                            <a href="./works/detail/2" class="btn01">
+                            <a href="https://niimiportfolio-e59a7e7430cd.herokuapp.com/" class="btn01">
                                 View More
                             </a>
                         </div>
