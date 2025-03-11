@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-import laravel from 'laravel-vite-plugin';
+const { defineConfig } = require('vite');
+const vue = require('@vitejs/plugin-vue');
+const laravel = require('laravel-vite-plugin');
 
-export default defineConfig({
+module.exports = defineConfig({
     plugins: [
         vue(), 
         laravel({
