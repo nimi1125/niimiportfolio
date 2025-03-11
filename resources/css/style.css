@@ -103,6 +103,9 @@ a{
     bottom: 4px;
 }
 
+.btn01:hover{
+    opacity: 0.7;
+}
 
 /* 共通ここまで */
 
@@ -188,6 +191,10 @@ a{
 
 main.preload .wow.fadeIn {
 	opacity: 0 !important;
+}
+
+.worksLink:hover{
+    color: #0582a3;
 }
 
 /* topここまで */
