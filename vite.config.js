@@ -23,6 +23,9 @@ export default defineConfig({
     },
     base: process.env.APP_ENV === 'production' ? '/' : '/build/',
     build: {
+        rollupOptions: {
+            external: ['wowjs']
+            },
         outDir: 'public/build',
         emptyOutDir: true,
     },
