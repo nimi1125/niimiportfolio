@@ -6,4 +6,5 @@ import.meta.glob([
 
 import { WOW } from 'wowjs';
 
-new WOW().init();
+const wow = new WOW();
+wow.init();
