@@ -4,7 +4,7 @@ import.meta.glob([
         '../img/**',
     ]);
 
-import { WOW } from 'wowjs';
+import * as WOW from 'wowjs';
 
-const wow = new WOW();
+const wow = new WOW.WOW();
 wow.init();
